@@ -1,0 +1,270 @@
+:root {
+  --gold: #e4b96c;
+}
+body {
+  background-color: black;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.marginTop {
+  margin-top: 100px;
+}
+.marginBottom {
+  margin-bottom: 80px;
+}
+.paddingY {
+  padding-top: 5em;
+  padding-bottom: 50px;
+}
+
+/* nav back ground */
+.navBackGround {
+  background-color: transparent;
+}
+/* Nav icon color */
+[class*="whiteCol"] {
+  color: white;
+}
+.NavClass {
+  transition: all 0.7s;
+}
+.dropdown-item :hover {
+  display: none;
+}
+.hovers:hover,
+.hovers:focus {
+  background-color: black;
+}
+.container a img {
+  height: 1.2rem;
+}
+@media screen and (max-width: 991.98px) {
+  .container a img {
+    height: 1rem;
+  }
+}
+/* Card */
+
+.card-header {
+  position: absolute;
+  top: 50px;
+  left: -50px;
+  color: white;
+}
+@media screen and (max-width: 991.98px) {
+  .card-header {
+    top: -40;
+    left: 4px;
+  }
+}
+@media screen and (max-width: 1175.98px) {
+  .card-header {
+    top: -40;
+    left: 0.5px;
+  }
+}
+.card-header:hover {
+  color: var(--gold);
+}
+[class*="BlackColBackground"] {
+  background-color: black;
+  color: white;
+  text-align: center;
+  transition: all 2s ease;
+}
+/*animation for texting card */
+
+.cardBody img {
+  margin: auto;
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+.card img {
+}
+@media screen and (max-width: 991.98px) {
+  .card img {
+    width: 100%;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .card img {
+    width: 100%;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  .card img {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+[class*="firtCard"] {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+@media screen and (max-width: 991.98px) {
+  [class*="firtCard"] {
+    border: 1px solid white;
+    padding-bottom: 10px;
+  }
+}
+
+.card-link {
+  text-decoration: none;
+  color: var(--gold);
+  position: absolute;
+  left: 73%;
+  transition: all 0.5s ease-in-out;
+}
+@media screen and (max-width: 991.98px) {
+  .card-link {
+    left: 65%;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .card-link {
+    left: 70%;
+  }
+}
+@media screen and (min-width: 515px) and (max-width: 760px) {
+  .card-link {
+    left: 75%;
+  }
+}
+@media screen and (max-width: 514px) {
+  .card-link {
+    left: 60%;
+  }
+}
+
+/* End Card */
+
+/* Icons Body */
+.body-Icon-Size {
+  font-size: 40px;
+}
+.bigFontSize {
+  font-size: 18px;
+}
+.smallFontSize {
+  font-size: 14px;
+}
+/* About Section */
+.veryBigFontSize {
+  font-size: 40px;
+  font-weight: 700;
+}
+.aboutSpan {
+  color: var(--gold);
+}
+.noBorder {
+  border: 0;
+}
+.accorLineHigh {
+  line-height: 1.2;
+}
+h3 span {
+  color: var(--gold);
+}
+.hovers:hover {
+  color: white;
+}
+/* Buttons Section */
+
+.btn {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+}
+.btn:hover,
+.btn:active,
+.btn:visited {
+  color: var(--gold);
+}
+.btn:focus {
+  color: var(--gold);
+  text-decoration: underline;
+}
+.bodyCard-d-none {
+  display: none;
+}
+.btn-loadMore {
+  font-size: 20px;
+}
+/* Get in touch */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.getintouch {
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+.footer {
+  background-color: #24262b;
+  padding: 70px 0;
+  position: relative;
+  font-size: 13px;
+  top: 50px;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col img {
+  height: 1rem;
+  margin-left: 12px;
+  margin-bottom: 20px;
+}
+.Subscribe {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+}
+.Subscribe:hover {
+  color: var(--gold);
+}
+.footer-col input {
+  font-size: 10px;
+  display: block;
+  width: 100%;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+.footer-card-img {
+  width: 100px;
+}
+.cardfooter img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/*responsive*/
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
