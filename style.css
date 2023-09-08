@@ -138,6 +138,11 @@ body {
     left: 60%;
   }
 }
+@media screen and (max-width: 280px) {
+  .card-link {
+    left: 50%;
+  }
+}
 
 /* End Card */
 
