@@ -118,6 +118,11 @@ body {
   left: 73%;
   transition: all 0.5s ease-in-out;
 }
+@media screen and (min-width: 992px) {
+  .card-link {
+    left: 60%;
+  }
+}
 @media screen and (max-width: 991.98px) {
   .card-link {
     left: 65%;
